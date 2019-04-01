@@ -6,6 +6,7 @@ public class Vendedor{
     private int id;
     private double pocentagemDeComissao;
     private double salarioBase;
+    private Gerente gerente;
 
     public Vendedor(String nome, double salarioBase, Gerente gerente){
         this.nome = nome;

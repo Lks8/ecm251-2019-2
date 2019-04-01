@@ -11,7 +11,7 @@ public class Gerente {
         this.nome = nome;
         this.id = Gerente.totalDeId;
         Gerente.totalDeId++;
-        this.pocentagemDeComissao = 0.05;
+        this.pocentagemDeComissao = 0.1;
         this.salarioBase = salarioBase;
     }
 
@@ -32,11 +32,15 @@ public class Gerente {
     }
 
     public double getComissao(double totalDeVendas){
-        return this.pocentagemDeComissao * totalDeVendas + 0.5*this.salarioBase;
+        return this.pocentagemDeComissao * totalDeVendas + 0.5 * this.salarioBase;
     }
 
     public boolean aumentarSalarioBaseVendedor(Vendedor vendedor){
-
+        if(vendedor.getGerente().equals(this)){
+            return true;
+        } else {
+            return false;
+        }
     }
 
 }
