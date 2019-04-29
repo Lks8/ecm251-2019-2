@@ -8,4 +8,9 @@ public class MinhaClasse {
         this.valor=valor;
         this.nome=nome;
     }
+
+    @Override
+    public String toString(){
+        return nome + '\t' + valor;
+    }
 }
