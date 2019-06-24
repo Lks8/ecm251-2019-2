@@ -1,4 +1,8 @@
 package atividadesubmarino;
 
-public interface Método {
+import java.util.List;
+
+public interface Método{
+      //List<Produto>resumoPedido();
+
 }

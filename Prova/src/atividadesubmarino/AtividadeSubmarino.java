@@ -69,12 +69,19 @@ public class AtividadeSubmarino {
                     break;
                 case 2:
                     depTemp = Produto.departamento.games;
+                    System.out.println(loja.listaPorDepartamento(depTemp));
+                    break;
                 case 3:
                     depTemp = Produto.departamento.informatica;
+                    System.out.println(loja.listaPorDepartamento(depTemp));
+                    break;
                 case 4:
                     depTemp = Produto.departamento.livro;
+                    System.out.println(loja.listaPorDepartamento(depTemp));
+                    break;
                 case 5:
                     depTemp = Produto.departamento.moveis;
+                    System.out.println(loja.listaPorDepartamento(depTemp));
                     //menuDepartamento( depTemp ); // IMPLEMENTE a partir daqui o menu de departamento
                     break;
                 case 6:

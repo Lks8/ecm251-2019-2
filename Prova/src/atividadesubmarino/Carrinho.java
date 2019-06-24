@@ -20,7 +20,7 @@ public class Carrinho extends Lista {
     }
 
     public int getRestantes(){
-        return carrinho.size();
+        return 12-carrinho.size();
     }
 
     public List<Produto> retornarResumo(){

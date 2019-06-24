@@ -20,7 +20,7 @@ public class Desejo extends Lista {
     }
 
     public int getRestantes(){
-        return desejos.size();
+        return 5-desejos.size();
     }
 
     public List<Produto> retornarResumo(){
