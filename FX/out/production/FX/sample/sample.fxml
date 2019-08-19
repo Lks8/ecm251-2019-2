@@ -5,4 +5,10 @@
 <?import javafx.scene.control.Label?>
 <GridPane fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Label text="FALA GALEEEEEERA" GridPane.rowIndex="0">
+
+    </Label>
+    <Label text="222222222" GridPane.rowIndex="1">
+
+    </Label>
 </GridPane>
